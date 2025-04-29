@@ -11,7 +11,6 @@ ul, ol li{
 li a{
     text-decoration: none;
     color: black;
-    padding: 10px 10px;
 }
 .container{
     width: 1320px;
@@ -51,6 +50,12 @@ li a{
 .rightPartOne span{
     margin: 0 15px;
 }
+.rightPartOne nav ul li{
+    padding: 0 10px;
+}
+
+
+
 .leftPartOne .forHover:hover{
     border-bottom: 1px solid white;
 }
@@ -71,7 +76,7 @@ li a{
 }
 .middlePart ul li{
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .middlePart ul li a{
     font-size: 18px;
@@ -92,4 +97,7 @@ li a{
     font-size: 16px;
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
+}
+.middlePart nav ul li a:hover{
+    border-bottom: 2px solid #20282D;
 }
