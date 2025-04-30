@@ -101,3 +101,323 @@ li a{
 .middlePart nav ul li a:hover{
     border-bottom: 2px solid #20282D;
 }
+/* header part end */
+
+/* banner part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+
+
+.bannerPart{
+    padding-top: 225px;
+    padding-bottom: 220px;
+    background: url(../assests/images/mainbanner2.webp);
+}
+.bannerInfo{
+    text-align: center;
+}
+.bannerInfo span{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+.bannerInfo p{
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+.bannerInfo h1{
+    font-size: 80px;
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.greeding{
+    padding-bottom: 30px;
+}
+.description{
+    padding-bottom: 45px;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+}
+.button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 25px;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+}
+.button:hover{
+    background: #20282D;
+    color: white;
+    transition: .6s;
+}
+/* banner part end */
+
+/* about part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+.aboutPart{
+    display: flex;
+    margin-top: 120px;
+}
+.aboutPartLeft{
+    width: 50%;
+    position: relative;
+}
+.mainImage{
+    width: 492px;
+    height: 550px;
+    margin-left: 100px;
+}
+.aboutPartLeft .overleyImage{
+    position: absolute;
+    width: 210px;
+    height: 240px;
+    left: 68%;
+    top: 55%;
+}
+.aboutExperience{
+    text-align: center;
+    align-items: center;
+    /* height: 200px; */
+    padding: 60px 0;
+    width: 200px;
+    background: #20282D;
+    border-radius: 15px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+.aboutExperience h3{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+.aboutExperience p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+/* right part */
+.aboutPartRight{
+    margin-left: 35px;
+    padding-top: 70px;
+}
+.fa-phone-volume{
+    padding: 10px;
+}
+.aboutFlexPart{
+    display: flex;
+}
+.aboutDis{
+    width: 350px;
+}
+.callIcon{
+    float: left;
+    font-size: 35px;
+    background: #20282D;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.aboutFlexLeftPart{
+    width: 50%;
+}
+.aboutFlexLeftPart p{
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #5d666f;
+    padding-top: 5px;
+    padding-left: 75px;
+}
+.aboutFlexLeftPart h6{
+    font-size: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #1c2539;
+    padding-left: 75px;
+}
+.aboutPartRight h4{
+    font-size: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #1c2539;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.aboutPartRight h2{
+    font-size: 48px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #1c2539;
+    padding-bottom: 25px;
+}
+.aboutDis p{
+    font-size: 18px;
+    color: #5d666f;
+    line-height: 26px;
+}
+.aboutSkill ul{
+    font-size: 18px;
+    color: #1c2539;
+}
+.fa-circle-check{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.aboutFlexPartTwo{
+    display: flex;
+    margin-top: 50px;
+}
+/* about part end */
+
+/* our service part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+#ourService{
+    width: 100%;
+    margin-top: 160px;
+}
+.serviceTitle{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.serviceTitle h4{
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 26px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+.serviceTitle h3{
+    color: #000000;
+    line-height: 26px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.servicePlan{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.businessPlan{
+    width: calc(100% / 3);
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* .businessPlan h3 p a{
+    padding-left: 150px;
+} */
+.businessPlan h3{
+    padding-left: 150px;
+ }
+.businessPlan p{
+    padding-left: 150px;
+ }
+.businessPlan a{
+    padding-left: 150px;
+ }
+
+.businessPlanImg{
+    width: 75px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.processDevelopment{
+    width: calc(100% / 3);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.processDevelopmentImg{
+    position: absolute;
+    width: 75px;
+    top: 50px;
+    left: 40px;
+}
+/* .processDevelopment h3  p  a{
+    padding-left: 150px;
+} */
+.processDevelopment h3{
+    padding-left: 150px;
+ }
+.processDevelopment p{
+    padding-left: 150px;
+ }
+.processDevelopment a{
+    padding-left: 150px;
+ }
+.strategyPlanning{
+    width: calc(100% / 3);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.strategyPlanningImg{
+    position: absolute;
+    width: 75px;
+    top: 50px;
+    left: 40px;
+}
+/* .strategyPlanning h3  p  a{
+    padding-left: 150px;
+} */
+.strategyPlanning h3{
+    padding-left: 150px;
+ }
+.strategyPlanning p{
+    padding-left: 150px;
+ }
+.strategyPlanning a{
+    padding-left: 150px;
+ }
+.servicePlan h3{
+    color: #1c2539;
+    font-size: 22px;
+    font-family: "Red Hat Display", sans-serif;
+    padding-bottom: 24px;
+}
+.servicePlan p{
+    color: #5d666f;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+.servicePlan a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: #1c2539;
+}
+li{
+    list-style-type: none;
+}
+/* our service part end */
+
+/* banner part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+
+/* banner part end */
+
+/* banner part start */
+/* banner part end */
+
