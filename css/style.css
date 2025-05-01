@@ -407,17 +407,243 @@ li a{
     font-family: "DM Sans", sans-serif;
     color: #1c2539;
 }
-li{
+.servicePlan li{
     list-style-type: none;
 }
+.dotSection{
+    width: 1320px;
+    margin: 50px auto;
+    text-align: center;
+}
+.dotSection ul li {
+    display: inline-block;
+    color: #CDCFD0;
+    font-size: 10px;
+    padding-right: 10px;
+    
+}
 /* our service part end */
+
+/* help business part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+#helpBusiness{
+    width: 100%;
+    background: url(../assests/images/middlePartAboutBanner.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.middlePartAbout{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middlePartAboutTitle h3{
+    font-size: 40px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #ffffff;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+.middlePartAboutButton a{
+    padding: 22px 30px;
+    background: #fff;
+    color: #20282D;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+.middlePartAboutButton a:hover{
+    background: #20282D;
+    color: #fff;
+    transition: .5s;
+}
+
+
+/* help business part end */
+
+/* last Part About part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+#lastPartAbout{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+.lastPartAboutSection{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+.lastPartAboutLeftPart{
+    width: 50%;
+}
+.lastPartAboutRightPart{
+    width: 50%;
+    position: relative;
+}
+.imgPartOne{
+    margin-bottom: 20px;
+}
+.lastPartAboutLeftPart h6{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 30px;
+}
+.lastPartAboutLeftPart h3{
+    font-size: 48px;
+    color: #1c2539;
+    font-family: "Red Hat Display", sans-serif;
+    padding-bottom: 35px;
+}
+.lastPartAboutLeftPart h4{
+    font-size: 20px;
+    color: #1c2539;
+    font-family: "Red Hat Display", sans-serif;
+    padding-bottom: 7px;
+}
+.lastPartAboutLeftPart p{
+    font-size: 16px;
+    color: #5d666f;
+    font-family: "DM Sans", sans-serif;
+}
+.lastPartAboutRightPartImgOne{
+    background: url(../assests/images/lastPartAboutRightPartImgOne.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 570px;
+    margin: 0 200px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.lastPartAboutRightPartImgTwo{
+    position: absolute;
+    background: url(../assests/images/lastPartAboutRightPartImgTwo.webp);
+    height: 430px;
+    width: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 15px solid #fff;
+    border-radius: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+.lastPartAboutButton {
+    margin-top: 40px;
+}
+.lastPartAboutButton a{
+    padding: 16px 25px;
+    background: #20282D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+.lastPartAboutButton a:hover{
+    background: #fff;
+    color: #20282D;
+    transition: .5s;
+}
+
+/* last Part About part end */
+
+
+/* successfull work information part start */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
+#workInformation{
+    width: 100%;
+    background: #1c2539;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.successfullWorkInformation{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+}
+.successfullProject{
+    width: 25%;
+}
+.successfullProject span{
+    float: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 40px;
+    display: inline-block;
+}
+.successfullProject h2{
+    font-size: 48px;
+
+}
+.mediaActivities{
+    width: 25%;
+}
+.mediaActivities span{
+    float: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 40px;
+    display: inline-block;
+}
+.mediaActivities h2{
+    font-size: 48px;
+
+}
+.skilledExperts{
+    width: 25%;
+}
+.skilledExperts span{
+    float: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 40px;
+    display: inline-block;
+}
+.skilledExperts h2{
+    font-size: 48px;
+}
+.happyClients{
+    width: 25%;
+}
+.happyClients span{
+    float: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 40px;
+    display: inline-block;
+}
+.happyClients h2{
+    font-size: 48px;
+}
+
+/* successfull work information part end */
+
 
 /* banner part start */
 /* font-family: "DM Sans", sans-serif; */
 /* font-family: "Red Hat Display", sans-serif; */
 
-/* banner part end */
-
-/* banner part start */
 /* banner part end */
 
